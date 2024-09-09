@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Konversi</title>
+</head>
+
+<body>
+
+    <h1> Konversi Nilai Angka menjadi Nilai Huruf </h1>
+
+    <div class="container">
+        <label class="center"> Masukkan nilai angka: </label>
+        <br>
+        <input type="number" id="nilai" class="center">
+
+        <br> <br>
+        <button type="button" class="center" onclick='konversi(document.getElementById("nilai").value)'> Konversi
+        </button>
+
+        <br> <br>
+        <label class="center"> Predikat: </label>
+
+        <br>
+        <input type="text" id="oResSub" class="center" readonly />
+    </div>
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>

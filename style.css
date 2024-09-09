@@ -1,0 +1,17 @@
+body {
+    font-family: 'The Aesthetic Essential', sans-serif;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(207, 230, 119, 1) 100%);
+}
+
+.container {
+    width: 97%;
+    border: 1px solid #ffffff;
+    padding: 20px;
+
+
+}
+
+label {
+    font-weight: bold;
+}
